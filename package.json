@@ -9,10 +9,13 @@
     "name": "Status",
     "manifest": "src/manifest.json",
     "main": "status.sketchplugin",
-    "repository": "https://github.com/james-elliott/sketchdataplugins.git",
     "assets": [
       "assets/**/*"
-    ]
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/james-elliott/StatusDataPlugin.git"
+    }
   },
   "scripts": {
     "build": "skpm-build",
