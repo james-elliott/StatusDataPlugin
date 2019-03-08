@@ -4,8 +4,5 @@
     <item>
       <enclosure url="https://github.com/james-elliott/StatusDataPlugin/releases/download/v0.2.0/status.sketchplugin.zip" sparkle:version="0.2.0"/>
     </item>
-    <item>
-      <enclosure url="https://github.com/james-elliott/StatusDataPlugin/releases/download/v0.3.0/status.sketchplugin.zip" sparkle:version="0.3.0"/>
-    </item>
   </channel>
 </rss>
