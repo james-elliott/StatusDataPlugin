@@ -1,0 +1,27 @@
+{
+  "name": "Status",
+  "version": "0.1.1",
+  "description": "Generates random status values",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Status",
+    "manifest": "src/manifest.json",
+    "main": "status.sketchplugin",
+    "repository": "https://github.com/james-elliott/sketchdataplugins.git",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2"
+  },
+  "author": "James Mingardi-Elliott <elliottj@vmware.com>"
+}
